@@ -1,0 +1,37 @@
+{
+  "exp_note": "Comparing two main models in two tasks",
+  "file_names": {
+    "Model A": [
+      "./log/task2/model_a/1.txt",
+      "./log/task2/model_a/2.txt",
+      "./log/task2/model_a/3.txt"
+    ],
+    "Model B": [
+      "./log/task2/model_b/1.txt",
+      "./log/task2/model_b/2.txt",
+      "./log/task2/model_b/3.txt"
+    ]
+  },
+  "result_png_path": "./img/20220427_2038/task2.png",
+  "min_updates": 0,
+  "max_updates": 1000000,
+  "interval": 10000,
+  "xaxis_bound": [
+    0,
+    1000000
+  ],
+  "yaxis_bound": [
+    0,
+    150
+  ],
+  "x_label": "Steps",
+  "y_label": "Performance",
+  "legend_loc": "upper left",
+  "order": [
+    "Model A"
+  ],
+  "colors": [
+    "red",
+    "blue"
+  ]
+}

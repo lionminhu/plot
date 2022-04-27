@@ -11,7 +11,7 @@
             "y_label": "Performance",
             "legend_loc": "upper left",
             "order": ["Model A", "Model B"],
-            "colors": ["red", "blue"],
+            "colors": ["yellow", "green"],
             "file_names": {
                 "Model A": [
                     "./log/task1/model_a/1.txt",
@@ -35,7 +35,7 @@
             "y_label": "Performance",
             "legend_loc": "upper left",
             "order": ["Model A"],
-            "colors": ["yellow", "green"],
+            "colors": ["red", "blue"],
             "file_names": {
                 "Model A": [
                     "./log/task2/model_a/1.txt",

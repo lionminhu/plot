@@ -1,6 +1,8 @@
 # Plot
 Auxiliary codes for generating 2D plots of learning curves. Mainly intended as a personal use. ~~I can't come up with a better repository name~~
 
+![](img/example/task2.png)
+
 
 ## Installation
 
