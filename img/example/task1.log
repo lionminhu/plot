@@ -12,7 +12,7 @@
       "./log/task1/model_b/3.txt"
     ]
   },
-  "result_png_path": "./img/20220427_2038/task1.png",
+  "result_png_path": "./img/20220427_2040/task1.png",
   "min_updates": 1,
   "max_updates": 11,
   "interval": 1,

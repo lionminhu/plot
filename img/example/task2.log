@@ -12,7 +12,7 @@
       "./log/task2/model_b/3.txt"
     ]
   },
-  "result_png_path": "./img/20220427_2038/task2.png",
+  "result_png_path": "./img/20220427_2040/task2.png",
   "min_updates": 0,
   "max_updates": 1000000,
   "interval": 10000,
@@ -28,7 +28,8 @@
   "y_label": "Performance",
   "legend_loc": "upper left",
   "order": [
-    "Model A"
+    "Model A",
+    "Model B"
   ],
   "colors": [
     "red",

@@ -34,7 +34,7 @@
             "x_label": "Steps",
             "y_label": "Performance",
             "legend_loc": "upper left",
-            "order": ["Model A"],
+            "order": ["Model A", "Model B"],
             "colors": ["red", "blue"],
             "file_names": {
                 "Model A": [
