@@ -32,7 +32,7 @@ variables `output_folder_prefix` and `output_folder_suffix` in `plot.py`. For ex
 ## Configuration File
 
 The overall format of the plot file `plot_config.json` is below.
-```json
+```
 {
     "exp_note": "...",
     "tasks": {
