@@ -66,6 +66,6 @@ if __name__ == "__main__":
         result_png_path = "./{}/{}.png".format(output_folder, task)
         file_names = provide_file_names(task)
 
-        draw_plots(file_names, result_png_path, config, exp_note)
+        draw_plots(file_names, result_png_path, config, exp_note, parse_func)
 
         print("Plot saved to {}".format(result_png_path))
