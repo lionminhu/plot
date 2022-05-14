@@ -208,7 +208,7 @@ def draw_plots(file_names, result_png_path, config, exp_note="", parse_func=defa
     if colors is None:
         colors = ["red", "blue", "purple", "yellow", "green"]
     
-    if len(colors) > len(file_names):
+    if len(colors) < len(file_names):
         raise ValueError("Not enough colors to cover all curves.")
 
     # Convert to color-blindness-friendly colors
