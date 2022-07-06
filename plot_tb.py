@@ -194,7 +194,7 @@ def draw_plots(file_names, result_png_path, config, exp_note="", parse_func=defa
     use_legend = _config.get("use_legend", True)
     legend_loc = _config.get("legend_loc", "upper left")
     xlim = _config["xaxis_bound"]
-    ylim = _config["yaxis_bound"]
+    ylim = _config.get("yaxis_bound", None)
     tick_format = _config.get("tick_format", True)
     draw_grid = _config.get("draw_grid", True)
 
